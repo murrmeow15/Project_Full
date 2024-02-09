@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    padding: 10px 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.highlight-white {
+    color: rgb(149, 236, 149)
+}
+
+.l-p {
+    font-size: 24px;
+    line-height: 1.7em;
+    padding-bottom: 25px;
+   color: white;
+}
+b{
+    background-color:rgba(43, 255, 0, 0.3);
+}
+
+.btn {
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border: solid 2px #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #050
+}
+
+#navbar {
+    background-color: #060;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar .logo {
+    float: left;
+    padding-top: 15px;
+    font-size: 2em;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.selected {
+    background-color: #050;
+    color: rgb(149, 236, 149);
+}
+
+#showcase {
+    background: url("Image20231209101144.png") no-repeat center center/cover;
+    height: 700px;
+    border-bottom: solid 10px #fff;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    margin-top: 130px;
+    background-image: url(https://bigpicture.ru/wp-content/uploads/2021/10/bigpicture_ru_duejn-skala-dzhonson-zhestko-mem.jpg);
+    background-size: 250px;
+    background-repeat: repeat;
+    color: transparent;
+    -webkit-background-clip: text;
+
+    /*box-shadow: 0px 0px 50px 50px white;
+    background-color: rgba(128, 128, 0, 0.3);*/
+
+}
+
+#showcase .showcase-content h1 {
+    font-size: 89px;
+    line-height: 1.2em;
+
+}
+
+#home-info {
+    height: 700px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url("Image20231216151358.png") no-repeat center center/cover;
+    height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 215px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+.btn-2:hover {
+    background: #033;
+}
+
+.bg-color {
+    background: #055;
+    color: #fff;
+}
+
+.highlight-sea {
+    color: #0dd;
+}
+
+.btn-3:hover {
+    background-color: #040;
+}
+
+#home-info2 {
+    height: 700px;
+    background-color: #060;
+}
+
+#home-info2 .info-img-2 {
+    float: right;
+    background: url("Image20231216154932.png") no-repeat center center/cover;
+    height: 100%;
+    width: 50%;
+}
+
+#home-info2 .info-content-2 {
+    float: right;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 215px 30px;
+    overflow: hidden;
+    color: #fff
+}
+
+#home-info2 .info-content-2 p {
+    padding-bottom: 30px;
+}
+
+#home-info2 .info-content-2 h1 span {
+    color: rgb(149, 236, 149)
+}
+
+#home-info3 {
+    background-color: #d4d4d4;
+    height: 700px;
+    color: #333;
+}
+
+#home-info3 .info-img-3 {
+    float: left;
+    background: url("Image20231209103425.png") no-repeat center center/cover;
+    width: 50%;
+    min-height: 100%;
+}
+
+#home-info3 .info-content-3 {
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 215px 30px;
+    overflow: hidden;
+}
+
+#home-info3 .info-content-3 p {
+    padding-bottom: 30px;
+}
+
+#home-info3 .info-content-3 .btn {
+    border: solid 2px #333;
+    color: #333;
+}
+
+
+#home-info4 {
+    height: 700px;
+    background-color: rgb(50, 184, 172);
+}
+
+#home-info4 .info-img-4 {
+    float: right;
+    background: url("https://gazeta-volga.ru/800/600/http/images.myshared.ru/6/782621/slide_12.jpg") no-repeat center center/cover;
+    height: 100%;
+    width: 50%;
+}
+
+#home-info4 .info-content-4 {
+    float: right;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 215px 30px;
+    overflow: hidden;
+    color: #fff
+}
+
+#home-info4 .info-content-4 p {
+    padding-bottom: 30px;
+}
+
+#home-info4 .info-content-4 h1 span {
+    color: rgb(0, 255, 0)
+}
+#home-info5 {
+    background-color: #b2ffaf;
+    height: 700px;
+    color: #333;
+}
+
+#home-info5 .info-img-5 {
+    float: left;
+    background: url("https://lh3.googleusercontent.com/proxy/uylIfrMF6GuU2qMhxEPKzkmHQ9lgsB-7TVzCq24v1u0m_DbCaiT8a713cJcO9sRJk0sLOIcKH2wW3iJnCFtySLGfMl1tHz-j1XTpqXJWfTErFfCVN28") no-repeat center center/cover;
+    width: 50%;
+    min-height: 100%;
+}
+
+#home-info5 .info-content-5 {
+    float: right;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    padding: 215px 30px;
+    overflow: hidden;
+}
+
+#home-info5 .info-content-5 p {
+    padding-bottom: 30px;
+}
+
+#home-info3 .info-content-3 .btn {
+    border: solid 2px #000000;
+    color: #cfffd5;
+}
+
+
+#main-footer {
+
+
+    text-align: center;
+    background-color: rgb(4, 94, 52);
+    color: #d4a0ff;
+    padding: 20px;
+}
+
+
+.clr {
+    clear: both;
+}

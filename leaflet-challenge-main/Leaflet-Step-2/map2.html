@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Leaflet Step-2</title>
+
+  <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+
+  <!--D3 cdn-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="static/css/style.css"> 
+</head>
+
+<body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="D:/My documents/School/Проект 8 класс/Project/index.html">earthquake</a></h1>
+          <ul>
+            <li><a class="selected" href="../../index.html">Home</a></li>
+            <li><a href="leaflet-challenge-main/Leaflet-Step-2/map2.html">Map</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../../table.html">Table</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <style>
+      #navbar {
+        background-color: #060;
+        color: #fff;
+        overflow: auto;
+      }
+
+      #navbar a {
+        color: #fff;
+      }
+
+      #navbar .logo {
+        float: left;
+        padding-top: 15px;
+        font-size: 2em;
+      }
+
+      #navbar ul {
+        list-style: none;
+        float: right;
+      }
+
+      #navbar ul li {
+        float: left;
+      }
+
+      #navbar ul li a {
+        display: block;
+        padding: 20px;
+        text-align: center;
+      }
+
+      #navbar ul li a:hover,
+      #navbar ul li a.selected {
+        background-color: #050;
+        color: rgb(149, 236, 149);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.7em;
+      }
+
+      a {
+        text-decoration: none;
+        color: #333;
+      }
+
+      h1,
+      h2,
+      h3 {
+        padding-bottom: 20px;
+      }
+
+      p {
+        padding: 10px 0;
+      }
+
+      .container {
+        margin: auto;
+        max-width: 1000px;
+        overflow: auto;
+        padding: 0 20px;
+      }
+
+      .highlight-white {
+        color: rgb(149, 236, 149)
+      }
+
+      .l-p {
+        font-size: 20px;
+        line-height: 1.7em;
+        padding-bottom: 25px;
+      }
+
+      .btn {
+        font-size: 18px;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 20px;
+        border: solid 2px #fff;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background: #050
+      }
+    </style>
+  <!-- The div that holds our map -->
+  <div id="mapid"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+    integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+    crossorigin=""></script>
+  <!-- D3 JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+  <!-- API key -->
+  <script type="text/javascript" src="static/js/config.js"></script>
+  <!-- Our JavaScript -->
+  <script type="text/javascript" src="static/js/logic.js"></script>
+  <!-- Script to call tectonic plates practice js-->
+  <!-- <script type="text/javascript" src="static/js/tectplates.js"></script> -->
+</body>
+
+</html>
